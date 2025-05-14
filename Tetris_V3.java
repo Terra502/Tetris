@@ -149,7 +149,7 @@ public class Tetris_V3 extends JFrame implements KeyListener
           verloren();
           x = -1;
           y = -1;
-          _thread.stop();
+          _thread.interrupt();
         } // end of if
       }
     }
